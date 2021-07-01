@@ -18,7 +18,6 @@ export const Container = styled.div`
 
     width: 350px;
 
-    cursor: pointer;
     transition: 300ms;
   }
 
@@ -28,22 +27,27 @@ export const Container = styled.div`
     outline: none;
     padding: 5px;
     border-radius: 5px;
+    cursor: default;
   }
 
-  .card-container:hover {
+  /* .card-container:hover {
     transform: scale(1.1);
     transition: 300ms;
-  }
+  } */
 
   .card-header {
     margin: 5px;
     border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
   }
 
   .card-body {
     section {
+      margin-top: 20px;
       h3 {
-        transform: translateX(15px);
+        transform: translateX(35px);
       }
     }
 
@@ -53,6 +57,22 @@ export const Container = styled.div`
       justify-content: space-between;
       margin: 7px;
     }
+  }
+
+  .Buttons{
+    float: right;
+    /* margin-top: 10px; */
+    /* border: 2px red solid; */
+  }
+`
+
+export const HeaderModal = styled.div`
+  .card-header {
+    margin: 5px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
   }
 `
 

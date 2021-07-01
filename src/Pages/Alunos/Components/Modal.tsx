@@ -28,7 +28,6 @@ export const Modal: React.FC = (props) => {
     const db = firebase.firestore()
 
     const [Alunos, setAlunos] = useState<Estudante[]>([])
-    const [isDeletando, setIsDeletando] = useState<boolean>(false)
     const Generic: any = []
     const AlunosFiltrados: Estudante[] = []
 

@@ -8,7 +8,7 @@ import { useStyles } from "../styles"
 
 export const SearchBar: React.FC = () => {
     const classes = useStyles()
-    const  { Search, setSearch, setIsUpdating, IsUpdating } = useContext(SearchContext)
+    const  { setSearch, setIsUpdating, IsUpdating } = useContext(SearchContext)
     
     function UpdateSearch(ev: string){
         setIsUpdating(!IsUpdating)

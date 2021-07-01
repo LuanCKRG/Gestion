@@ -5,8 +5,7 @@ import PagamentosPage from '../Pagamentos/index'
 
 import { Header, Navegation } from "./styles"
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-import NotFoundPage from 'Pages/NotFound'
-import React from 'react'
+
 import GlobalStyle from 'Styles/Global'
 
 

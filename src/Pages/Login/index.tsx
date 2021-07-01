@@ -16,10 +16,6 @@ import { useHistory } from 'react-router-dom'
 
 import { Theme } from '@material-ui/core'
 import AuthContext from 'Context/Auth/Context'
-type ClientData = {
-    email: string,
-    password: string
-}
 
 const useStyles = makeStyles(
     (theme: Theme) => (

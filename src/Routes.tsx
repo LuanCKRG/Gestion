@@ -6,10 +6,6 @@ import AuthContext from 'Context/Auth/Context'
 import LoginPage from 'Pages/Login'
 import { NavBar } from 'Pages/NavBar'
 import NotFoundPage from 'Pages/NotFound'
-import Cadastro from 'Pages/Cadastro'
-import AlunosPage from 'Pages/Alunos'
-import PagamentosPage from 'Pages/Pagamentos'
-import AgendaPage from 'Pages/Agenda'
 
 
 const Routes: React.FC = () => {
